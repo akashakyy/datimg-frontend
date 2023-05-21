@@ -1,0 +1,238 @@
+.app-logo {
+  position: absolute;
+  height: 250px;
+  width: 108.64147186279297px;
+  left: 50px;
+  top: 120px;
+  background-color: red;
+  border-radius: 0px;
+  align-items: center;
+  background: linear-gradient(
+    62.01deg,
+    #f27121 18.51%,
+    #e94057 56.3%,
+    #8a2387 86.53%
+  );
+  width: fit-content;
+  align-items: center;
+}
+
+.sign-up-title {
+  position: absolute;
+  width: 295px;
+  height: 27px;
+  left: 40px;
+  top: 306px;
+
+  /* H4 / 18 Bold */
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  text-align: center;
+
+  /* Text / Primary 100 #000000 */
+
+  color: #000000;
+}
+
+.continue-btn {
+  position: absolute;
+  width: 231px;
+  height: 24px;
+  left: 72px;
+  top: 345px;
+  padding: 22px;
+  cursor: pointer;
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25%;
+  border: #e94057;
+
+  text-align: center;
+  color: #ffffff;
+  background-color: #e94057;
+}
+
+.continue-btn-mobile {
+  position: absolute;
+  width: 231px;
+  height: 24px;
+  left: 72px;
+  top: 400px;
+  padding: 22px;
+  cursor: pointer;
+
+  /* H5 / 16 Bold */
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+
+  /* red #E94057 */
+
+  color: #e94057;
+  border: #e94057;
+}
+
+.landing-description {
+  position: absolute;
+  width: 79px;
+  height: 18px;
+  left: 148px;
+  top: 470px;
+
+  /* H7 / 12 Regular */
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  text-align: center;
+  font-weight: bold;
+
+  /* Text / Primary 100 #000000 */
+
+  color: #000000;
+}
+.border-right {
+  position: absolute;
+  width: 94px;
+  height: 0.5px;
+  left: 241px;
+  top: 475px;
+
+  /* Text / Primary 40 #000000 */
+
+  background: rgba(0, 0, 0, 0.4);
+}
+.border-left {
+  position: absolute;
+  width: 94px;
+  height: 0.5px;
+  left: 40px;
+  top: 472px;
+
+  /* Text / Primary 40 #000000 */
+
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.fb {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 71px;
+  top: 500px;
+
+  /* White #FFFFFF */
+
+  background: #ffffff;
+  /* border #E8E6EA */
+
+  border: 1px solid #e8e6ea;
+  border-radius: 15px;
+}
+
+.google {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 155px;
+  top: 500px;
+
+  /* White #FFFFFF */
+
+  background: #ffffff;
+  /* border #E8E6EA */
+
+  border: 1px solid #e8e6ea;
+  border-radius: 15px;
+}
+
+.ios {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 239px;
+  top: 500px;
+
+  /* White #FFFFFF */
+
+  background: #ffffff;
+  /* border #E8E6EA */
+
+  border: 1px solid #e8e6ea;
+  border-radius: 15px;
+}
+
+.ios svg{
+
+}
+
+.terms {
+  position: absolute;
+  width: 79px;
+  height: 21px;
+  left: 90px;
+  top: 575px;
+
+  /* H6 / 14 Regular */
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+
+  /* red #E94057 */
+
+  color: #e94057;
+}
+
+.privacy {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 201px;
+  top: 575px;
+
+  /* H6 / 14 Regular */
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+
+  /* red #E94057 */
+
+  color: #e94057;
+}
