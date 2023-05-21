@@ -1,0 +1,77 @@
+h1 {
+    position: absolute;
+    width: 295px;
+    height: 51px;
+    left: 40px;
+    top: 128px;
+  
+    /* H1 / 34 Bold */
+  
+    font-family: "Sk-Modernist";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    /* identical to box height, or 51px */
+  
+    /* Text / Primary 100 #000000 */
+  
+    color: #000000;
+  }
+  
+  p {
+    position: absolute;
+    width: 295px;
+    height: 42px;
+    left: 40px;
+    top: 179px;
+  
+    /* H6 / 14 Regular */
+  
+    font-family: "Sk-Modernist";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+  
+    /* Text / Primary 70 #000000 */
+  
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .email {
+    box-sizing: border-box;
+  
+    position: absolute;
+    left: 10.67%;
+    right: 10.67%;
+    top: 250px;
+  
+    /* White #FFFFFF */
+  
+    background: #ffffff;
+    /* border #E8E6EA */
+  
+    border: 1px solid #e8e6ea;
+    border-radius: 15px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .email-continue {
+    position: absolute;
+    width: 295px;
+    height: 56px;
+    left: 10.67%;
+    right: 10.67%;
+    top: 315px;
+    color: white;
+  
+    /* red #E94057 */
+  
+    background: #e94057;
+    border-radius: 15px;
+    border: #e94057;
+  }
+  

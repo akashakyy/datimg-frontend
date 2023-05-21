@@ -187,8 +187,19 @@
   border-radius: 15px;
 }
 
-.ios svg{
+.google svg{
+  padding-left: 15px;
+  padding-top: 15px;
+}
 
+.ios svg{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.fb svg{
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .terms {
