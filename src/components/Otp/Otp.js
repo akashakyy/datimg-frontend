@@ -1,11 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./otp.css";
 import OtpInput from "react-otp-input";
+import { useNavigate } from "react-router-dom";
 
 const Otp = () => {
   //OTP
   const [otp, setOtp] = useState("");
-  let [timer, setTimer] = useState(5);
+  let [timer, setTimer] = useState(60);
   let classNameOtp = "otp-input";
   let classNameOtpContainer = "otp-container";
 
