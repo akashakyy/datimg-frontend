@@ -4,6 +4,7 @@ import Landing from './components/Landing/Landing';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Mobile from './components/Mobile/Mobile';
 import Email from './components/Email/Email';
+import Otp from './components/Otp/Otp';
 
 const appRouter = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const appRouter = createBrowserRouter([
   {
     path: '/email',
     element: <Email/>
+  },
+  {
+    path: '/otp',
+    element: <Otp/>
   }
 ])
 

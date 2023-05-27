@@ -1,8 +1,15 @@
 import React from 'react';
 import './email.css';
 import Header from '../Header/Header';
+import { useNavigate } from "react-router-dom";
+
 
 const Email = () => {
+  let navigate = useNavigate();
+  const handleClick = () =>{
+    //api call
+    return navigate('/otp');
+  }
   return (
     <>
     <Header/>
@@ -14,10 +21,10 @@ const Email = () => {
         </p>
       </div>
 
-      <input className="email" type="text" />
+      <input className="email" type="email" />
 
       <div>
-        <button className="email-continue">Continue</button>
+        <button onClick={() =>handleClick()} className="email-continue">Continue</button>
       </div>
     </>
   )

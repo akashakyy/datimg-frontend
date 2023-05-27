@@ -1,0 +1,77 @@
+.msg-text {
+  position: absolute;
+  width: 295px;
+  height: 42px;
+  left: 40px;
+  top: 179px;
+
+  /* H4 / 18 Regular */
+
+  font-family: "Sk-Modernist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  text-align: center;
+
+  /* Text / Primary 70 #000000 */
+
+  color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+}
+
+.otp-input {
+    padding: 20px;
+
+
+  /* red #E94057 */
+
+  background: #e94057;
+  border-radius: 15px;
+  border: #e94057;
+}
+
+.otp-container {
+    position: absolute;
+    width: 66px;
+    height: 70px;
+    left: 65px;
+    top: 289px;
+    align-items: center;
+}
+
+.seperator{
+    padding-left: 8px;
+}
+
+.timer {
+    left: 130px;
+}
+
+.btn-send{
+    /* Send again */
+
+
+position: absolute;
+width: 85px;
+height: 24px;
+left: 145px;
+top: 724px;
+
+/* H5 / 16 Bold */
+
+font-family: 'Sk-Modernist';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* red #E94057 */
+
+color: #E94057;
+cursor: pointer;
+}

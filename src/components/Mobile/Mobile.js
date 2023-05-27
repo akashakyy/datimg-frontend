@@ -1,8 +1,14 @@
 import React from "react";
 import "./mobile.css";
 import Header from "../Header/Header";
+import { useNavigate } from "react-router-dom";
 
 const Mobile = () => {
+  let navigate = useNavigate();
+  const handleClick = () =>{
+    //api call
+    return navigate('/otp');
+  }
   return (
     <>
       <Header />
@@ -17,7 +23,7 @@ const Mobile = () => {
       <input className="mobile-number" type="number" />
 
       <div>
-        <button className="mobile-continue">Continue</button>
+        <button  onClick={() =>handleClick()} className="mobile-continue">Continue</button>
       </div>
     </>
   );
