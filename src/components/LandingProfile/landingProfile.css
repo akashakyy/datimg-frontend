@@ -1,0 +1,186 @@
+.skip {
+    position: absolute;
+    width: 33px;
+    height: 24px;
+    left: 302px;
+    top: 56px;
+
+    /* H5 / 16 Bold */
+
+    font-family: 'Sk-Modernist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* red #E94057 */
+
+    color: #E94057;
+
+
+}
+
+.profile {
+    position: absolute;
+    width: 295px;
+    height: 51px;
+    left: 40px;
+    top: 128px;
+
+    /* H1 / 34 Bold */
+
+    font-family: 'Sk-Modernist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    /* identical to box height, or 51px */
+
+
+    /* Text / Primary 100 #000000 */
+
+    color: #000000;
+
+
+
+}
+
+.image-preview {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 137px;
+    top: 270px;
+    border-radius: 25px;
+}
+
+.camera-container {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 204px;
+    top: 342px;
+
+    /* red #E94057 */
+
+    /* White #FFFFFF */
+
+    border: 2px solid #FFFFFF;
+    background-color: #E94057;
+    border-radius: 25px;
+
+}
+
+.camera-container>input {
+    display: none;
+}
+
+.camera-container>label>img {
+    display: none;
+}
+
+.camera-container>label>svg {
+    padding: 8px;
+    padding-top: 8px;
+}
+
+.input-label{
+    position: absolute;
+
+/* H7 / 12 Regular */
+
+font-family: 'Sk-Modernist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+
+/* Text / Primary 40 #000000 */
+
+color: rgba(0, 0, 0, 0.4);
+
+}
+
+.input-box {
+    box-sizing: border-box;
+
+position: absolute;
+/* White #FFFFFF */
+
+background: #FFFFFF;
+/* border #E8E6EA */
+
+border: 1px solid #E8E6EA;
+border-radius: 15px;
+padding: 10px;
+border-radius: 15px;
+}
+
+
+.birthday-btn{
+    position: absolute;
+    box-sizing: border-box;
+    /* border #E8E6EA */
+    
+    border: 1px solid #E8E6EA;
+    padding: 10px;
+
+/* red #E94057 */
+    background: #E94057;
+    color: wheat;
+    border: #E94057;
+}
+
+.input-container{
+    position: absolute;
+    width: 295px;
+    height: 251px;
+    left: 102px;
+    top: 400px;
+}
+
+.calendar{
+    position: absolute;
+    top: 500px;
+    left: 12px;
+    width: 35px;
+    border: 1px solid #E8E6EA;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: white;
+    align-items: center;
+}
+
+.calendar-btn{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    
+    border: 1px solid #E8E6EA;
+    padding: 10px;
+
+/* red #E94057 */
+    background: #f892a0;
+    color: wheat;
+    border: #E94057;
+    border-radius: 15px;
+    left: -5px;
+    top:150px;
+    
+}
+.calendar-btn >img{
+    height: 18px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.calendar-btn >label{
+
+    margin-left: 4px;
+    margin-bottom: 14px;
+    color: #E94057;
+}

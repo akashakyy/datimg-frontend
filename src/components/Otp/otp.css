@@ -31,6 +31,8 @@
   background: #e94057;
   border-radius: 15px;
   border: #e94057;
+  font-weight: 600;
+  color: white;
 }
 
 .otp-container {

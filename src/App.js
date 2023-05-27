@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Mobile from './components/Mobile/Mobile';
 import Email from './components/Email/Email';
 import Otp from './components/Otp/Otp';
+import LandingProfile from './components/LandingProfile/LandingProfile';
 
 const appRouter = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const appRouter = createBrowserRouter([
   {
     path: '/otp',
     element: <Otp/>
+  },
+  {
+    path: '/landingProfile',
+    element: <LandingProfile/>
   }
 ])
 
