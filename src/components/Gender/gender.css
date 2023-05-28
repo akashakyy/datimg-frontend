@@ -1,0 +1,90 @@
+.skip {
+    position: absolute;
+    width: 33px;
+    height: 24px;
+    left: 302px;
+    top: 56px;
+
+    /* H5 / 16 Bold */
+
+    font-family: 'Sk-Modernist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* red #E94057 */
+
+    color: #E94057;
+}
+
+.yourself{
+    position: absolute;
+width: 295px;
+height: 51px;
+left: 40px;
+top: 128px;
+
+/* H1 / 34 Bold */
+
+font-family: 'Sk-Modernist';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 150%;
+/* identical to box height, or 51px */
+
+
+/* Text / Primary 100 #000000 */
+
+color: #000000;
+
+}
+
+.gender{
+    margin-top: 50px;
+}
+
+.gender>ul>li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    width: 295px;
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+}
+
+.gender>ul>li:hover{
+    background-color: #E94057;
+    color: white;
+}
+
+.selected-gender{
+    background-color: #E94057;
+    color: white;
+}
+
+ .continue {
+    position: absolute;
+    width: 321px;
+    height: 56px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+  
+    /* red #E94057 */
+  
+    background: #e94057;
+    border-radius: 15px;
+    cursor: pointer;
+    border: #e94057;
+  }

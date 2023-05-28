@@ -9,6 +9,7 @@ const Otp = () => {
   const [otp, setOtp] = useState("");
   let navigate = useNavigate();
   let [timer, setTimer] = useState(60);
+  let [sendAgain, setSendAgain] = useState(false);
   let classNameOtp = "otp-input";
   let classNameOtpContainer = "otp-container";
 
@@ -20,7 +21,9 @@ const Otp = () => {
 
   //TIMER
   useEffect(() => {
-    if (timer == 0) return;
+    if (timer == 0) {
+      return setSendAgain(true);
+    }
     if (timer > 0) {
       let timerInterval = setInterval(() => {
         timer = timer - 1;
@@ -49,11 +52,12 @@ const Otp = () => {
         containerStyle={classNameOtpContainer}
         onChange={setOtp}
         numInputs={4}
+        inputType="number"
         renderSeparator={<span className="seperator"></span>}
         renderInput={(props) => <input {...props} />}
         shouldAutoFocus={true}
       />
-      <p className="btn-send">Send again</p>
+      {sendAgain && <p onClick={() => navigate(0) } className="btn-send">Send again</p>}
     </>
   );
 };

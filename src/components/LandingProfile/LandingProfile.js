@@ -3,13 +3,19 @@ import "./landingProfile.css";
 import { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import Header from '../Header/Header';
+import Header from "../Header/Header";
+import moment from "moment/moment";
+import { useNavigate } from "react-router-dom";
+
+
 const LandingProfile = () => {
+  const navigate = useNavigate();
   const [image, setImage] = useState(
     "https://cdn-icons-png.flaticon.com/512/2815/2815428.png"
   );
   const [dateValue, setDateValue] = useState(new Date());
   const [isCalendarOpen, setCalendarOpen] = useState(false);
+  const [dateLabel, setDateLabel] = useState("Choose birthday");
 
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
@@ -20,12 +26,16 @@ const LandingProfile = () => {
     setCalendarOpen(true);
   };
 
+function handleFormSubmit(e){
+  e.preventDefault()
+  navigate('/gender');
+}
   return (
     <>
-    <Header/>
+      <Header />
       <p className="skip">Skip</p>
       <p className="profile">Profile details</p>
-      <form>
+      <form onSubmit={(e) => handleFormSubmit(e)}>
         <div className="camera-container">
           <label htmlFor="profile-img">
             <svg
@@ -70,19 +80,26 @@ const LandingProfile = () => {
           {!isCalendarOpen && (
             <div className="calendar-btn" onClick={() => handleCalendarClick()}>
               <img src="https://static.vecteezy.com/system/resources/previews/005/988/959/non_2x/calendar-icon-free-vector.jpg" />
-              <label htmlFor="fname">Choose your birth date</label>
+              <label htmlFor="fname">{dateLabel}</label>
             </div>
           )}
         </div>
 
         {isCalendarOpen && (
-            <Calendar
+          <Calendar
             className="calendar"
-              onChange={setDateValue}
-              value={dateValue}
-              onClick = {()=>setCalendarOpen(false)}
-            />
-          )}
+            value={dateValue}
+            // minDate={moment().subtract(18, "years").format('DD-MM-YYYY')}
+            onClickDay={(value, event) => {
+              console.log(new Date())
+              value = moment(value).format('DD/MM/YYYY');
+              setDateLabel(value);
+              setCalendarOpen(false);
+            }}
+          />
+        )}
+
+        {!isCalendarOpen && <button className="confirm-btn">Confirm</button>}
       </form>
     </>
   );

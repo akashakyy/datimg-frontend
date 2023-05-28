@@ -6,6 +6,9 @@ import Mobile from './components/Mobile/Mobile';
 import Email from './components/Email/Email';
 import Otp from './components/Otp/Otp';
 import LandingProfile from './components/LandingProfile/LandingProfile';
+import Gender from './components/Gender/Gender';
+import Interest from './components/Interest/Interest';
+import Cards from './components/Cards/Cards';
 
 const appRouter = createBrowserRouter([
   {
@@ -27,7 +30,20 @@ const appRouter = createBrowserRouter([
   {
     path: '/landingProfile',
     element: <LandingProfile/>
-  }
+  },
+  {
+    path: '/gender',
+    element: <Gender/>
+  },
+  {
+    path: '/interest',
+    element: <Interest/>
+  },
+  {
+    path: '/cards',
+    element: <Cards/>
+  },
+
 ])
 
 function App() {
