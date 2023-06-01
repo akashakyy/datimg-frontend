@@ -9,6 +9,7 @@ import LandingProfile from './components/LandingProfile/LandingProfile';
 import Gender from './components/Gender/Gender';
 import Interest from './components/Interest/Interest';
 import Cards from './components/Cards/Cards';
+import Chat from './components/Chat/Chat';
 
 const appRouter = createBrowserRouter([
   {
@@ -43,6 +44,11 @@ const appRouter = createBrowserRouter([
     path: '/cards',
     element: <Cards/>
   },
+  {
+    path: '/chat',
+    element: <Chat/>
+  },
+
 
 ])
 

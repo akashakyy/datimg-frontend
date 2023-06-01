@@ -71,3 +71,5 @@ export const InteresetData = [
         'label': 'Other'
     }
 ];
+
+export const API_URL = "http://localhost:8000";
